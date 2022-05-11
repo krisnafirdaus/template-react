@@ -6,11 +6,13 @@ import RandomQuote from "./Component/RandomQuote";
 import Counter from "./Component/Counter";
 import FirstComponent from "./Component/FirstComponent";
 import ListMap from "./Component/ListMap";
+import ParentComponent from "./Component/Keranjang";
+import Air from "./Component/Air";
 
 const App = () => {
   return (
     <div className="App">
-      <ListMap />
+      <Air />
     </div>
   );
 };
